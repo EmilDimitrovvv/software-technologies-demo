@@ -1,3 +1,4 @@
 My First Text File in Git
 My Second Line
 I'm gonna add a third line and see what happens
+This is the 4th line
