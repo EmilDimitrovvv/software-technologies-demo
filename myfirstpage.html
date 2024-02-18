@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="myfirstpage.css">
+    <link rel="stylesheet" href="myfirstpage.js">
+    <title>MyFirstPageonGithub</title>
+</head>
+
+<body>
+    <main>
+        <h1>Welcome to my first webpage</h1>
+        <p>I will try to add a button</p>
+        <p>Click the "Try it" button to create a BUTTON element with a "Click me" text.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  var x = document.createElement("BUTTON");
+  var t = document.createTextNode("Click me");
+  x.appendChild(t);
+  document.body.appendChild(x);
+}
+</script>
+    </main>
+</body>
+
+</html>
